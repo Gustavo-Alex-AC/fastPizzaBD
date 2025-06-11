@@ -17,6 +17,7 @@ app.use("/api/pagamentos", require("./routes/pagamentoRoutes"));
 app.use("/api/tipopagamento", require("./routes/tipoPagamentoRoutes"));
 app.use("/api/ingredientes", require("./routes/ingredienteRoutes"));
 app.use("/api/carrinho", require("./routes/carrinhoRoutes"));
+app.use("/api/enderecos", require("./routes/enderecoRoutes"));
 
 // Teste se conectou
 db.sequelize.sync({ alter: true }).then(() => {
