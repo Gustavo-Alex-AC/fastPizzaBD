@@ -18,8 +18,8 @@ app.use("/api/tipopagamento", require("./routes/tipoPagamentoRoutes"));
 app.use("/api/ingredientes", require("./routes/ingredienteRoutes"));
 app.use("/api/carrinho", require("./routes/carrinhoRoutes"));
 app.use("/api/enderecos", require("./routes/enderecoRoutes"));
-app.use("/api/stocks", require ("./routes/stockRoutes"));
-
+app.use("/api/stocks", require("./routes/stockRoutes"));
+app.use("/api", require("./routes/orderEmailRoute"));
 
 // Teste se conectou
 db.sequelize.sync({ alter: true }).then(() => {
@@ -27,4 +27,3 @@ db.sequelize.sync({ alter: true }).then(() => {
 });
 
 module.exports = app;
-

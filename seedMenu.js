@@ -9,7 +9,7 @@ const {
 const pizzasData = [
   {
     nome: "Margherita",
-    preco: 12.0,
+    preco: 6000,
     imagem:
       "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-1.jpg",
     ingredientes: ["tomato", "mozzarella", "basil"],
@@ -18,7 +18,7 @@ const pizzasData = [
   },
   {
     nome: "Capricciosa",
-    preco: 14.0,
+    preco: 8000,
     imagem:
       "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-2.jpg",
     ingredientes: ["tomato", "mozzarella", "ham", "mushrooms", "artichoke"],
@@ -27,7 +27,7 @@ const pizzasData = [
   },
   {
     nome: "Quatro Queijos",
-    preco: 15.0,
+    preco: 9500,
     imagem:
       "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-3.jpg",
     ingredientes: ["mozzarella", "gorgonzola", "parmesan", "emmental"],
@@ -36,7 +36,7 @@ const pizzasData = [
   },
   {
     nome: "Pepperoni",
-    preco: 13.5,
+    preco: 7500,
     imagem:
       "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-4.jpg",
     ingredientes: ["tomato", "mozzarella", "pepperoni"],
@@ -45,7 +45,7 @@ const pizzasData = [
   },
   {
     nome: "Vegetariana",
-    preco: 13.0,
+    preco: 7000,
     imagem:
       "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-5.jpg",
     ingredientes: ["tomato", "mozzarella", "bell pepper", "onion", "olive"],
@@ -54,7 +54,7 @@ const pizzasData = [
   },
   {
     nome: "Frango com Catupiry",
-    preco: 14.5,
+    preco: 9300,
     imagem:
       "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-6.jpg",
     ingredientes: ["mozzarella", "chicken", "catupiry"],
