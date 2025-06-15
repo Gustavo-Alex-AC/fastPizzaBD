@@ -32,7 +32,7 @@ async function sendOrderEmail({ email, nome, orderId, total, itens }) {
 
       <hr style="margin: 20px 0;" />
 
-      <p>Você pode acompanhar o estado do seu pedido no aplicativo da FastPizza. Entraremos em contacto assim que estiver a caminho! 🚚</p>
+      <p>Você pode acompanhar o estado do seu pedido no aplicativo da Fast-Pizza. Entraremos em contacto assim que estiver a caminho! 🚚</p>
       <p>Se tiver dúvidas, entre em contacto conosco por e-mail ou ligue para 922520825 | 923617845.</p>
 
       <p style="margin-top: 30px; font-size: 14px; color: #999;">Obrigado por escolher a Fast-Pizza! 🍕</p>
